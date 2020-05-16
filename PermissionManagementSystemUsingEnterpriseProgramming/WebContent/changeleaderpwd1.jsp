@@ -21,7 +21,7 @@ try
 	 Class.forName("oracle.jdbc.driver.OracleDriver");
 	 System.out.println("Driver Classes Loaded");  
 	 Connection con = null;
-	 con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:xe", "system", "password");  
+	 con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "password");  
 	 System.out.println("Connection Established");
 	  
 	  PreparedStatement pstmt = con.prepareStatement("select * from leader where uname=? and pwd=?");
