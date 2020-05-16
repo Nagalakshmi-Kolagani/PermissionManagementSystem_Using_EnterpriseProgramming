@@ -4,7 +4,7 @@ String uname=(String)request.getParameter("uname");
 try
 {
 	Class.forName("oracle.jdbc.driver.OracleDriver");
-	Connection con=DriverManager.getConnection("jdbc:oracle:thin:@DESKTOP-FCEM9RQ:1521:xe", "system", "Nani*14323");
+	Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "password");
 	PreparedStatement p=con.prepareStatement("update permission set status2=?,final_status=? where uname=?");
 	p.setString(1,"REJECTED");
 	p.setString(2,"REJECTED");
