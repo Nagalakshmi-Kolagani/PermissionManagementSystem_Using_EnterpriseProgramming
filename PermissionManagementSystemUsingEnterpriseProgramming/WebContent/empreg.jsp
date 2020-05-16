@@ -17,7 +17,7 @@ try
 	Class.forName("oracle.jdbc.driver.OracleDriver");
 	 System.out.println("Driver Classes Loaded");  
 	 Connection con = null;
-	 con = DriverManager.getConnection("jdbc:oracle:thin:@DESKTOP-FCEM9RQ:1521:xe", "system", "Nani*14323");  
+	 con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "password");  
 	 System.out.println("Connection Established");
 
 	 PreparedStatement ps = con.prepareStatement("select * from employee where uname=? or email=?");
