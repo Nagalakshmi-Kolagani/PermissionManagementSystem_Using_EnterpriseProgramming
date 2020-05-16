@@ -1,0 +1,51 @@
+*{
+     letter-spacing:0.1em;
+     word-spacing:0.2em;
+background-color:#D3D3D3;
+  }
+ 
+th{
+     text-align:center;
+     text-transform:uppercase;
+    font: 500 25px Georgia,serif;
+    line-height:3em;
+    }
+.showcase{
+        background-color:#D3D3D3;
+        border:5px solid black; 
+        margin:5px 450px 5px 450px; 
+
+}
+td input[type="text"]
+{
+  border:5px solid black;
+  padding:4px;
+}
+td input[type="password"]
+{
+  border:5px solid black;
+    padding:4.5px;
+}
+td input[type="email"]
+{
+  border:5px solid black;
+    padding:4.5px;
+}
+td{
+    padding-left:10px;
+    font: 500 20px Georgia,serif;
+}
+.signup{
+   background-color:#FFFACD;
+   border:2px solid black;
+   border-radius:10px;
+   padding:10px 15px 15px 10px ; 
+   margin-bottom:10px;
+   font: 500 20px Georgia,serif;
+   cursor:pointer;
+}
+.table1{
+    
+     border-spacing:0 25px;
+     border-collapse:separate;
+}

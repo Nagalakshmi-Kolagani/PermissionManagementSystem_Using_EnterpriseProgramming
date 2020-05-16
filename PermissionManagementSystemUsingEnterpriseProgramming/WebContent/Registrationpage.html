@@ -1,0 +1,63 @@
+<!doctype>
+<html>
+<head>
+     <title>Registration Form</title>
+     <link rel="stylesheet" type="text/css" href="regpagestyle.css">
+</head>
+<body>
+    <section class="showcase">
+<form mehod="post" action="empreg.jsp">
+<center>
+<table class="table1">
+   <tr>
+         <th colspan=2>Registration form</th>
+   </tr>
+   <tr>
+        <td>Name:</td>
+        <td><input type="text" id="name" name="name"  onchange="change()"></td>
+  </tr>
+  <tr>
+        <td>User Name:</td>
+        <td><input type="text" id="uname" name="uname" onchange="change()" ></td>
+  </tr>
+  <tr>
+        <td>Email:</td>
+        <td><input type="text" id="email" name="email" onchange="change3()" ></td>
+   </tr>
+    <tr>
+        <td>Gender:</td>
+        <td> Male<input type="radio" name="gender" value="male" required>
+        Female<input type="radio" name="gender" value="female"></td>
+   </tr>
+   <tr>
+       <td>Enter Password:</td>
+        <td><input type="password" name="pwd"></td>
+   </tr>
+  <tr>
+        
+        <th><input type="submit" class="signup" value="Submit"></th>
+        <th><input type="reset" class="signup" value="Clear"></th>
+        
+  </tr>
+</table>
+</center>
+<script>
+function change() {
+  var x = document.getElementById("name");
+  x.value=x.value.toUpperCase();
+  var y = document.getElementById("uname");
+  y.value=y.value.toUpperCase();
+}
+function change3()
+{
+  var b=document.getElementById("email");
+  if(b.value.indexOf('@')<1 || (b.value.lastIndexOf('.')<b.value.indexOf('@')+2)  ||  (b.value.lastIndexOf('.')+2>=b.value.length)){
+       alert("Enter a valid email");
+       b.value=''; 
+     }
+}
+</script>
+</form>
+</section>
+</body>
+</html>

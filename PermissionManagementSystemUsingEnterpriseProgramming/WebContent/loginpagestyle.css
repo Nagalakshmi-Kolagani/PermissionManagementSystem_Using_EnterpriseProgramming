@@ -1,0 +1,56 @@
+*{
+     letter-spacing:0.1em;
+     word-spacing:0.2em;
+  
+ background-color:#D3D3D3;	
+  }
+th{  
+    font: 500 25px Georgia,serif;
+    line-height:3em;
+    }
+
+#showcase{
+        background-color:#D3D3D3;
+        border:5px solid black; 
+        margin:5px 460px 5px 460px; 
+
+}
+
+td input[type="text"]
+{
+  border:5px solid black;
+  padding:4px;
+}
+td input[type="password"]
+{
+  border:5px solid black;
+    padding:4.5px;
+}
+td{
+    padding-left:10px;
+    font: 500 20px Georgia,serif;
+}
+.psw{
+      padding-left:200px;
+      font-weight:bold;
+      color:black;
+}
+.login{
+   background-color:#FFFACD;
+   border:2px solid black;
+   border-radius:10px;
+   padding:10px 15px 15px 10px ; 
+   font: 500 20px Georgia,serif;
+   cursor:pointer;
+}
+p
+{
+	padding-left:0.3px;
+	margin-bottom:50px;
+}
+
+.table1{
+    
+     border-spacing:0 25px;
+     border-collapse:separate;
+}

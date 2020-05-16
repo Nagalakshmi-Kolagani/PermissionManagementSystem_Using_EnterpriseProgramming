@@ -1,0 +1,95 @@
+*{
+     margin:0;
+     padding:0;
+     letter-spacing:0.1em;
+     word-spacing:0.2em;
+     background-color:white;
+  }
+h1{
+     color:black;
+     background-color:#D3D3D3;
+     border-bottom:5px solid black;
+     text-align:center;
+     text-transform:uppercase;
+    font: 500 25px Georgia,serif;
+    line-height:3em;
+    margin:0
+    }
+body
+{
+      margin:10px 10px  10px 10px;
+      border: 5px solid black;
+      background-color:skyblue;
+      border-radius:10px;
+ }
+ a
+ {
+ background-color:yellow;
+ }
+p
+  {
+  text-align:center;
+  margin-top:80px;
+  margin-bottom:10px;
+  background-color:yellow;
+   border:3px solid black;
+    
+   border-radius:15px;
+ 
+  }
+button
+{
+  background-color:yellow;
+   border:3px solid black;
+   border-radius:15px;
+   cursor: pointer;
+}
+.home
+{
+	margin:50px;
+	border-radius:7px;
+	padding:10px;
+	float:left;
+}
+.contact
+{
+margin:50px;
+	border-radius:7px;
+	float:right;
+	padding:10px;	
+}
+  .button1 
+{
+	 background-color:yellow;
+   border:5px solid black;
+   border-radius:15px;
+   padding: 50px 15px;
+   cursor: pointer;
+   padding-left:20px;
+  margin-top:200px;
+  margin-left:120px;
+}
+.button2
+{
+	 background-color:yellow;
+   border:5px solid black;
+   border-radius:15px;
+   padding: 50px 15px;
+   padding-left:30px;
+   cursor: pointer;
+    margin-top:200px;
+     margin-left:180px;
+   
+}
+.button3
+{
+	 background-color:yellow;
+   border:5px solid black;
+   border-radius:15px;
+   padding: 50px 15px;
+   cursor: pointer;
+ margin-top:200px;
+  margin-left:180px;
+   padding-left:20px;
+}
+  

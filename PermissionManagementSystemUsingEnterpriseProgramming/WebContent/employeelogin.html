@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+          <title>Emplyee Login Form</title>
+          <link rel="stylesheet" type="text/css" href="loginpagestyle.css">
+</head>
+<body>
+<form method="post" action="checkemplogin.jsp" >
+          <section id="showcase">
+            <table class="table1">
+                <tr>
+                   <th align="center" colspan=2>EMPLOYEE LOGIN</th>
+                </tr>
+                <tr>
+                   <td><label class="empname">Enter UserName:</label></td>
+                   <td><input type="text"  id="uname" name="uname" class="uname" onchange ="change()"></td>
+               </tr>
+               <tr>
+                  <td><label class="pas">Enter Password:</label></td>
+                  <td><input type="password" name="pwd" class="pswd"></td>
+               </tr>
+               <tr>
+                  <th><input type="submit" class="login" value="Submit"></th>
+                  <th><input type="reset" class="login" value="Clear"></th>
+               </tr>
+               <tr>
+                    <th colspan="2"><p>Not Registered? <a href="Homepage.html">click here</a></p></th>
+                        
+                    </tr>
+            </table>
+             
+           </section>
+<script>
+function change() {
+  var y = document.getElementById("uname");
+  y.value=y.value.toUpperCase();
+}
+</script>
+</form>
+</body>
+</html>
