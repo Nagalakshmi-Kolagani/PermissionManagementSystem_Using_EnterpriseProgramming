@@ -20,7 +20,7 @@ String uname=(String)session.getAttribute("uname");
 try
 {
 	Class.forName("oracle.jdbc.driver.OracleDriver");
-	Connection con=DriverManager.getConnection("jdbc:oracle:thin:@DESKTOP-FCEM9RQ:1521:xe", "system", "Nani*14323");
+	Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "password");
 	PreparedStatement p=con.prepareStatement("select * from permission ");
 	ResultSet r=p.executeQuery();
 	%>
